@@ -40,3 +40,10 @@ npm run build        # production build
 ```
 
 The `start` and `start:public` scripts remain active while serving. Stop them with `Ctrl+C` when you are done.
+## CDK Deployments
+
+This project is configured for deployment via [AWS CDK](https://aws.amazon.com/cdk/) with GitHub Actions.
+
+For setup instructions — including how to configure AWS OIDC authentication — see [docs/cdk.md](./docs/cdk.md).
+
+If you plan to use custom domains, run `npx wirejs-deploy-cdk domain` before your first custom-domain deploy.
