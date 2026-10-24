@@ -3,11 +3,11 @@ import { auth } from 'internal-api';
 import { AccountMenu } from '../components/index.js';
 import type { AuthenticationState } from 'wirejs-resources';
 
-const TITLE = 'My New Site';
-const SUBTITLE = 'Made with wirejs';
+const TITLE = 'deckanalyzer.com';
+const SUBTITLE = 'Analysis tools for nerds.';
 const MENU_ID = 'account-menu';
 const DISCLAIMER = html`<div>
-	<p>For the purposes of awesomeness only.</p>
+	<p>Terms of Service: All content is intended for the purposes of awesomeness only.</p>
 </div>`;
 
 async function Account() {
