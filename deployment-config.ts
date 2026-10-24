@@ -27,7 +27,7 @@ export default {
 			},
 			{
 				type: 'CNAME',
-				name: 'dev.mtg',
+				name: 'dev.mtg.deckanalyzer.com',
 				zoneDomain: 'deckanalyzer.com',
 				values: ['d31ljyhwnzj84i.cloudfront.net']
 			},
@@ -37,11 +37,18 @@ export default {
 				zoneDomain: 'deckanalyzer.com',
 				values: ['d31ljyhwnzj84i.cloudfront.net']
 			},
-			{ type: 'MX', name: '@', zoneDomain: 'deckanalyzer.com', values: ['1 aspmx.l.google.com'] },
-			{ type: 'MX', name: '@', zoneDomain: 'deckanalyzer.com', values: ['10 alt3.aspmx.l.google.com'] },
-			{ type: 'MX', name: '@', zoneDomain: 'deckanalyzer.com', values: ['10 alt4.aspmx.l.google.com'] },
-			{ type: 'MX', name: '@', zoneDomain: 'deckanalyzer.com', values: ['5 alt1.aspmx.l.google.com'] },
-			{ type: 'MX', name: '@', zoneDomain: 'deckanalyzer.com', values: ['5 alt2.aspmx.l.google.com'] },
+			{
+				type: 'MX',
+				name: '@',
+				zoneDomain: 'deckanalyzer.com',
+				values: [
+					'1 aspmx.l.google.com',
+					'5 alt1.aspmx.l.google.com',
+					'5 alt2.aspmx.l.google.com',
+					'10 alt3.aspmx.l.google.com',
+					'10 alt4.aspmx.l.google.com',
+				]
+			},
 			{
 				type: 'TXT',
 				zoneDomain: 'deckanalyzer.com',
