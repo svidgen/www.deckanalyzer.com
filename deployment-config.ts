@@ -14,7 +14,7 @@ export default {
 		main: [
 			{
 				type: 'CNAME',
-				name: '_5777d0c00cd18e37f7d9a29f0818b178',
+				name: '_5777d0c00cd18e37f7d9a29f0818b178.mtg.deckanalyzer.com',
 				zoneDomain: 'deckanalyzer.com',
 				values: ['_42148fc8f14e73ee53c618b60e379916.rvctyfnwhz.acm-validations.aws']
 			},
